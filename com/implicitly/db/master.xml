@@ -10,4 +10,8 @@
         <sqlFile dbms="postgresql" encoding="utf8" path="com/implicitly/db/sql/20180716-create-entities-utf8.sql" splitStatements="true"/>
     </changeSet>
 
+    <changeSet author="implicitly" id="change-entities">
+        <sqlFile dbms="postgresql" encoding="utf8" path="com/implicitly/db/sql/20180717-change-entities-utf8.sql" splitStatements="true"/>
+    </changeSet>
+
 </databaseChangeLog>
