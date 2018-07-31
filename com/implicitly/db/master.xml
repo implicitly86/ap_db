@@ -14,4 +14,8 @@
         <sqlFile dbms="postgresql" encoding="utf8" path="com/implicitly/db/sql/20180717-change-entities-utf8.sql" splitStatements="true"/>
     </changeSet>
 
+    <changeSet author="implicitly" id="create-customer">
+        <sqlFile dbms="postgresql" encoding="utf8" path="com/implicitly/db/sql/20180731-create-customer-utf8.sql" splitStatements="true"/>
+    </changeSet>
+
 </databaseChangeLog>
