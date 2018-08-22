@@ -18,4 +18,12 @@
         <sqlFile dbms="postgresql" encoding="utf8" path="com/implicitly/db/sql/20180731-create-customer-utf8.sql" splitStatements="true"/>
     </changeSet>
 
+    <changeSet author="implicitly" id="change-customer-type">
+        <sqlFile dbms="postgresql" encoding="utf8" path="com/implicitly/db/sql/20180820-change-customer-type-utf8.sql" splitStatements="true"/>
+    </changeSet>
+
+    <changeSet author="implicitly" id="change-date-type">
+        <sqlFile dbms="postgresql" encoding="utf8" path="com/implicitly/db/sql/20180822-change-date-type-utf8.sql" splitStatements="true"/>
+    </changeSet>
+
 </databaseChangeLog>
