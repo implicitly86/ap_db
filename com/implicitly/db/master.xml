@@ -26,4 +26,8 @@
         <sqlFile dbms="postgresql" encoding="utf8" path="com/implicitly/db/sql/20180822-change-date-type-utf8.sql" splitStatements="true"/>
     </changeSet>
 
+    <changeSet author="implicitly" id="test-data">
+        <sqlFile dbms="postgresql" encoding="utf8" path="com/implicitly/db/sql/20180830-test-data-utf8.sql" splitStatements="true"/>
+    </changeSet>
+
 </databaseChangeLog>
